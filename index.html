@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="/index.css">
+
+    <script>
+
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var menu = document.getElementById('menu');
+            menu.classList.toggle('showing');
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Site Responsivo - No Github</h1>
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                ☰
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home">
+            <h1>Home</h1>
+            <p>Bem-vindo ao site responsivo.</p>
+        </section>
+
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Informações, descrição do sobre.</p>
+        </section>
+
+        <section id="servicos">
+            <h1>Serviços</h1>
+            <p>Neste tópico você terá acesso às informações mais detalhadas sobre os serviços que nós oferecemos, e como eles são realizados para os nossos clientes.</p>
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Aqui estarão disponíveis aa nossas informações de contato, caso tenha alguma dúvida, alguma dificuldade, ou queira mais alguma informação, basta entrar em contato conosco que iremos esclarecer as suas dúvidas.</p>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Meu Site Responsivo</p>
+    </footer>
+    
+</body>
+</html>
